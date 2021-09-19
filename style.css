@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    transition: 0.3s;
+}
+body {
+    background-color: blue;
+}
+nav ul {
+    text-align: right;
+    background-color: gray;
+}
+#home a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    position: absolute;
+    margin: 20px;
+    transition: 0.5s;
+}
+#home {
+    text-align: left;
+    position: absolute;
+}
+nav ul li a:hover {
+    color: aqua;
+    transition: 0.5s;
+}
+#home a:hover {
+    color: rgb(255, 115, 0);
+    transition: 0.5s;
+}
